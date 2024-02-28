@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabalho de português</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    
 
     <script src="https://unpkg.com/ionicons@latest/dist/ionicons.js"></script>
 
@@ -31,14 +31,14 @@
             </div>
 
             <div id="botao">
-                <button type="button"> <ion-icon name="arrow-forward-circle-outline"></ion-icon></button>
+                <button type="button" onclick="abrir()"> <ion-icon name="arrow-forward-circle-outline"></ion-icon></button>
             </div>
             
         </div>
     </div>
     
 
-    <div id="poema">
+    <div id="poema" >
         <h1>Entre montanhas e estrelas</h1>
         <div id="linha"></div>
         <div class="normal">
@@ -112,14 +112,20 @@
             </p> 
         </div>
 
-        <div id="agradecimentos" data-aos="fade-up" data-aos-duration="700">
+        <div id="agradecimentos" data-aos="fade-up" >
             <h1>OBRIGADO PELA ATENÇÃO!</h1>
             <p>Espero que tenham gostado da nossa apresentação!</p>
         </div>
 
         <footer>
-            <p>Site criado por <a href="https://www.instagram.com/maateusruzz/">Mateus Chaves</a></p>
+            <p>Site criado por <a href="https://www.instagram.com/maateuscruzz/" target="_blank"> Mateus Chaves</a></p>
         </footer>
     </div>
+    <Script>
+        function abrir(){
+            document.querySelector('#container').style.display = 'none'
+            document.querySelector('#poema').style.display = 'block'
+        }
+    </Script>
 </body>
 </html>
