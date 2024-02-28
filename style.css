@@ -83,3 +83,118 @@ button:hover{
     opacity: 1;
     transition: 1;
 }
+
+#linha{
+    background-color: rgba(64, 64, 245, 0.69);
+    height: 2px;
+    width: 30%;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+
+#poema > h1{
+    color: #D74928;
+    font-family: 'osw';
+    text-align: center;
+    
+    margin-top: 10px;
+}
+
+#poema > .normal> p{
+    font-family: 'open';
+    
+    margin: 20px;
+    margin-left: 40px;
+    width: 60%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#poema > .imagem> p{
+    font-family: 'open';
+    margin: 20px;
+    width: 60%;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 18px;
+
+    background-color: rgba(176, 176, 176, 0.41);
+    padding: 25px;
+    color: white;
+    font-weight: normal;
+    border-radius: 15px;
+}
+
+.imagem{
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.622);
+    padding-block: 30px;
+}
+
+#um{
+    background-image: url(images/montanha.jpg);
+    background-position: center right;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#dois{
+    background-image: url(images/galaxia.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#tres{
+    background-image: url(images/montanhas.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#quatro{
+    background-image: url(images/fim\ \(2\).jpg);background-attachment: fixed;
+   background-position: center top;
+   margin-bottom: 50px;
+   width: 100%;
+}
+
+#quatro > p{
+    width: 50%;
+}
+
+#agradecimentos{
+    text-align: center;
+}
+
+#agradecimentos > h1{
+    color:#D74928;
+    font-family: 'osw';
+}
+
+#agradecimentos > p{
+    font-family: 'open';
+    margin-bottom: 50px;
+    margin-top: 15px;
+
+}
+
+footer{
+    background-color: #D74928;
+    color: white;
+    font-family: 'open';
+    text-align: center;
+    padding: 7px;
+    margin-top: 10px;
+}
+
+a{
+    text-decoration: underline;
+    color: white;
+}
